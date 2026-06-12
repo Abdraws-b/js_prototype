@@ -2,9 +2,9 @@ Number.prototype.sum = function(){
     return this.valueOf() + 2 ;
 }
 
-let sumchild = 14;
-let sumchild_sub = sumchild.sum();
-console.log(sumchild_sub);
+let sumparent = 14;
+let sumchild = sumparent.sum();
+console.log(sumchild);
 
 
 
@@ -15,7 +15,7 @@ Number.prototype.mult = function(){
 
 let part = 3;
 let part_second = part.mult();
-onsole.log(part_second);
+console.log(part_second);
 
 
 
